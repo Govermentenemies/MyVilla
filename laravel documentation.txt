@@ -27,3 +27,5 @@
 - .env => database connection $ faker_locale
 - config/app.php => faker_locale
 - app/providers/AppServiceProvider => Paginator::useBootstrap();
+
+- test branch baru
