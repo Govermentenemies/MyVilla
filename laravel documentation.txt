@@ -29,3 +29,4 @@
 - app/providers/AppServiceProvider => Paginator::useBootstrap();
 
 - test branch baru
+- membuat branch baru
