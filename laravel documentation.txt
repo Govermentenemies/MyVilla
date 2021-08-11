@@ -17,7 +17,7 @@
   - namaModel::create([key => value]) => insert data
   - $var = new namaModel => insert data
     - $var->key = value
-  - fillable dan guarded saat mengisi data
+  - fillable dan guarded saat mengisi data 
 
 - php artisan db:seed
 - php artisan migrate:fresh --seed
