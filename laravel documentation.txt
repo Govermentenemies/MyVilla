@@ -1,0 +1,29 @@
+- Blade Laravel Templating engine
+  - section, yield, extends (mirip sama controller yang manggil view template)
+  - include (mirip include/require biasa)
+  - {{ }} as php echo
+  - nulis path file pake namaFolder.namaFile
+  - {} as wildcard mengambil apa yang ada di posisi wildcard tersebut dan dibuatkan variabel dengan nama wildcard tersebut | contoh Route::get('/blog/{slug}')
+
+- artisan make model dan controller => command palette
+- import all classes
+- menjadikan array menjadi collection
+
+- environtment variable (.env) => menghubungkan ke database
+- migration
+- php artisan migrate, migrate:rollback, migrate:fresh => terminal => create and drop database
+- object relational maper/ORM (eloquent) => semua tabel terintegrasi dengan Model => CRUD
+  - php artisan tingker => insert data
+  - namaModel::create([key => value]) => insert data
+  - $var = new namaModel => insert data
+    - $var->key = value
+  - fillable dan guarded saat mengisi data
+
+- php artisan db:seed
+- php artisan migrate:fresh --seed
+
+
+
+- .env => database connection $ faker_locale
+- config/app.php => faker_locale
+- app/providers/AppServiceProvider => Paginator::useBootstrap();
